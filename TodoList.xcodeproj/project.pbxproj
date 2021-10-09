@@ -17,6 +17,7 @@
 		572CE167271240590002709D /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE166271240590002709D /* ListItemView.swift */; };
 		572CE16D271243300002709D /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE16C271243300002709D /* ItemModel.swift */; };
 		572CE17027124A4B0002709D /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE16F27124A4B0002709D /* ListViewModel.swift */; };
+		572CE174271251160002709D /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE173271251160002709D /* CheckBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		572CE166271240590002709D /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		572CE16C271243300002709D /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		572CE16F27124A4B0002709D /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		572CE173271251160002709D /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				572CE16427123EE30002709D /* ListView.swift */,
 				572CE166271240590002709D /* ListItemView.swift */,
+				572CE173271251160002709D /* CheckBoxView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				572CE16D271243300002709D /* ItemModel.swift in Sources */,
+				572CE174271251160002709D /* CheckBoxView.swift in Sources */,
 				572CE17027124A4B0002709D /* ListViewModel.swift in Sources */,
 				572CE13A271233490002709D /* TodoListApp.swift in Sources */,
 				572CE16527123EE30002709D /* ListView.swift in Sources */,

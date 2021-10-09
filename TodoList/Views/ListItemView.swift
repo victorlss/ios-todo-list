@@ -12,7 +12,7 @@ struct ListItemView: View {
     
     var body: some View {
         HStack {
-            Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
+            CheckBoxView(checked: item.isCompleted)
             Text(item.title)
             Spacer()
         }
