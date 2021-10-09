@@ -8,16 +8,27 @@
 import SwiftUI
 
 struct ListItemView: View {
+    var item: ItemModel
+    
     var body: some View {
         HStack {
-            Image(systemName: "checkmark.circle")
-            Text("Item")
+            Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
+            Text(item.title)
+            Spacer()
         }
     }
 }
 
 struct ItemListView_Previews: PreviewProvider {
+    static var item1: ItemModel = ItemModel(title: "First preview item", isCompleted: false)
+    static var item2: ItemModel = ItemModel(title: "Second preview item", isCompleted: true)
+    
     static var previews: some View {
-        ListItemView()
+        Group{
+            ListItemView(item: item1)
+            ListItemView(item: item2)
+        }
+        .previewLayout(.sizeThatFits)
     }
+    
 }
