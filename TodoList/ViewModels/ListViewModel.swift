@@ -21,6 +21,12 @@ class ListViewModel: ObservableObject {
         items.move(fromOffsets: from, toOffset: to)
     }
     
+    func updateItem(item: ItemModel) {
+        if let index = items.firstIndex(where: { $0.id == item.id }) {
+            items[index] = ItemModel(title: item.title, isCompleted: !item.isCompleted)
+        }
+    }
+    
     func loadSampleData() {
         let sampleData = [
             ItemModel(title: "My first item", isCompleted: false),
