@@ -21,10 +21,11 @@ struct ListView: View {
             .onDelete(perform: listViewModel.deleteItem)
             .onMove(perform: listViewModel.moveItem)
         }
+        .listStyle(.plain)
         .navigationTitle("Todo List")
         .navigationBarItems(
             leading: EditButton(),
-            trailing: Button("Add") {}
+            trailing: NavigationLink("Add", destination: AddItemView())
         )
     }
 }

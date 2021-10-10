@@ -27,6 +27,11 @@ class ListViewModel: ObservableObject {
         }
     }
     
+    func addItem(title: String) {
+        let newItem: ItemModel = ItemModel(title: title, isCompleted: false)
+        items.append(newItem)
+    }
+    
     func loadSampleData() {
         let sampleData = [
             ItemModel(title: "My first item", isCompleted: false),
