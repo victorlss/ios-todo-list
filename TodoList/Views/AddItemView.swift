@@ -23,7 +23,9 @@ struct AddItemView: View {
                         presentationMode.wrappedValue.dismiss()
                     },
                     label: { Label("Add", systemImage: "plus.circle") }
-                ).buttonStyle(.bordered)
+                )
+                    .buttonStyle(.bordered)
+                    .accessibilityIdentifier("addItemButton")
                     
             }.padding()
         }

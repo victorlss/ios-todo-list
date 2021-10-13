@@ -19,6 +19,8 @@
 		572CE17027124A4B0002709D /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE16F27124A4B0002709D /* ListViewModel.swift */; };
 		572CE174271251160002709D /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE173271251160002709D /* CheckBoxView.swift */; };
 		572CE17827125F760002709D /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE17727125F760002709D /* AddItemView.swift */; };
+		572CE17B271650900002709D /* AddItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE17A271650900002709D /* AddItemTests.swift */; };
+		572CE17D271665650002709D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CE17C271665650002709D /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		572CE16F27124A4B0002709D /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		572CE173271251160002709D /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		572CE17727125F760002709D /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		572CE17A271650900002709D /* AddItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTests.swift; sourceTree = "<group>"; };
+		572CE17C271665650002709D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 			children = (
 				572CE1542712334B0002709D /* TodoListUITests.swift */,
 				572CE1562712334B0002709D /* TodoListUITestsLaunchTests.swift */,
+				572CE17A271650900002709D /* AddItemTests.swift */,
+				572CE17C271665650002709D /* Utils.swift */,
 			);
 			path = TodoListUITests;
 			sourceTree = "<group>";
@@ -320,6 +326,8 @@
 			files = (
 				572CE1572712334B0002709D /* TodoListUITestsLaunchTests.swift in Sources */,
 				572CE1552712334B0002709D /* TodoListUITests.swift in Sources */,
+				572CE17B271650900002709D /* AddItemTests.swift in Sources */,
+				572CE17D271665650002709D /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
